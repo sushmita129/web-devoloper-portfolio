@@ -123,3 +123,40 @@ section{
     margin-top: 130px;
     margin-bottom: 130px;
 }
+.resume-container{
+    display: flex;
+    gap: 18px;
+}
+.resume-background , .resume-edu{
+    color: #757575;
+}
+.resume-title , .resume-exp{
+    color: #474747;
+}
+.resume-main-title{
+    text-align: center;
+}
+.resume-download{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], input[type="email"], input[type="textarea"]{
+    height: 64px;
+    width: 461px;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    border: none;
+    margin-bottom: 24px;
+    display: block;
+    padding: 10px 20px;
+}
